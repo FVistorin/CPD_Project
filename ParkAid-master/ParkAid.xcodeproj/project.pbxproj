@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B2CF2D24B77467002F621E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B2CF2B24B77467002F621E /* Main.storyboard */; };
+		40B2CF3224B77651002F621E /* PHaus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2CF3124B77651002F621E /* PHaus.swift */; };
+		40B2CF3424B7774C002F621E /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B2CF3324B7774C002F621E /* DataLoader.swift */; };
+		40B2CF3C24B7839B002F621E /* PDaten.json in Resources */ = {isa = PBXBuildFile; fileRef = 40B2CF3A24B77E81002F621E /* PDaten.json */; };
+		70684FDB24BEFE72002DA6E0 /* RoutingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70684FDA24BEFE72002DA6E0 /* RoutingViewController.swift */; };
+		70684FDD24BEFE8A002DA6E0 /* ARNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70684FDC24BEFE8A002DA6E0 /* ARNavigationViewController.swift */; };
+		707B27F324C35178007A52A3 /* ARCL in Frameworks */ = {isa = PBXBuildFile; productRef = 707B27F224C35178007A52A3 /* ARCL */; };
+		70AD4AEB2456EEA200683F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD4AEA2456EEA200683F36 /* AppDelegate.swift */; };
+		70AD4AED2456EEA200683F36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD4AEC2456EEA200683F36 /* SceneDelegate.swift */; };
+		70AD4AEF2456EEA200683F36 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD4AEE2456EEA200683F36 /* MapViewController.swift */; };
+		70AD4AF42456EEA300683F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AD4AF32456EEA300683F36 /* Assets.xcassets */; };
+		70AD4AF72456EEA300683F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AD4AF52456EEA300683F36 /* LaunchScreen.storyboard */; };
+		A973E44924B28E96006D20C2 /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973E44824B28E96006D20C2 /* ParkingSpot.swift */; };
+		A973E44F24B35E8C006D20C2 /* ParkingSpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A973E44E24B35E8C006D20C2 /* ParkingSpotTableViewCell.swift */; };
+		A98C092924B39AD000827736 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C092824B39AD000827736 /* NavigationController.swift */; };
+		A98C092C24B3E8FE00827736 /* ParkdetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C092B24B3E8FE00827736 /* ParkdetailsController.swift */; };
+		A98C093124B55E5F00827736 /* ParkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C093024B55E5F00827736 /* ParkingController.swift */; };
+		A98C093324B60DBD00827736 /* ParkingResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C093224B60DBD00827736 /* ParkingResultController.swift */; };
+		A99F00E124BF3C2C0005A3B2 /* BuyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F00E024BF3C2C0005A3B2 /* BuyTicketViewController.swift */; };
+		A99F00E324BF4A750005A3B2 /* ModifiedParkingResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F00E224BF4A750005A3B2 /* ModifiedParkingResultController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40B2CF2C24B77467002F621E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B2CF3124B77651002F621E /* PHaus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHaus.swift; sourceTree = "<group>"; };
+		40B2CF3324B7774C002F621E /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		40B2CF3A24B77E81002F621E /* PDaten.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = PDaten.json; path = ParkAid/PDaten.json; sourceTree = SOURCE_ROOT; };
+		70475F99247ED07700A009C3 /* Germany_HSHL-2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Germany_HSHL-2.gpx"; path = "../../../Downloads/Germany_HSHL-2.gpx"; sourceTree = "<group>"; };
+		70684FDA24BEFE72002DA6E0 /* RoutingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewController.swift; sourceTree = "<group>"; };
+		70684FDC24BEFE8A002DA6E0 /* ARNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARNavigationViewController.swift; sourceTree = "<group>"; };
+		709E498324B38C1C007F1F9F /* Germany_HSHL-2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Germany_HSHL-2.gpx"; sourceTree = "<group>"; };
+		70AD4AE72456EEA200683F36 /* ParkAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AD4AEA2456EEA200683F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70AD4AEC2456EEA200683F36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70AD4AEE2456EEA200683F36 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		70AD4AF32456EEA300683F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70AD4AF62456EEA300683F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70AD4AF82456EEA300683F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A973E44824B28E96006D20C2 /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		A973E44E24B35E8C006D20C2 /* ParkingSpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpotTableViewCell.swift; sourceTree = "<group>"; };
+		A98C092824B39AD000827736 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A98C092B24B3E8FE00827736 /* ParkdetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkdetailsController.swift; sourceTree = "<group>"; };
+		A98C093024B55E5F00827736 /* ParkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingController.swift; sourceTree = "<group>"; };
+		A98C093224B60DBD00827736 /* ParkingResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingResultController.swift; sourceTree = "<group>"; };
+		A99F00E024BF3C2C0005A3B2 /* BuyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketViewController.swift; sourceTree = "<group>"; };
+		A99F00E224BF4A750005A3B2 /* ModifiedParkingResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiedParkingResultController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AD4AE42456EEA200683F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707B27F324C35178007A52A3 /* ARCL in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40B2CF3024B775BA002F621E /* JSON Daten */ = {
+			isa = PBXGroup;
+			children = (
+				40B2CF3124B77651002F621E /* PHaus.swift */,
+				40B2CF3324B7774C002F621E /* DataLoader.swift */,
+			);
+			path = "JSON Daten";
+			sourceTree = "<group>";
+		};
+		70AD4ADE2456EEA200683F36 = {
+			isa = PBXGroup;
+			children = (
+				70475F99247ED07700A009C3 /* Germany_HSHL-2.gpx */,
+				70AD4AE92456EEA200683F36 /* ParkAid */,
+				70AD4AE82456EEA200683F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70AD4AE82456EEA200683F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70AD4AE72456EEA200683F36 /* ParkAid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70AD4AE92456EEA200683F36 /* ParkAid */ = {
+			isa = PBXGroup;
+			children = (
+				40B2CF3024B775BA002F621E /* JSON Daten */,
+				70AD4AF82456EEA300683F36 /* Info.plist */,
+				A98C092D24B3E96B00827736 /* Base */,
+				A98C092A24B3E87E00827736 /* ViewController */,
+				A973E44824B28E96006D20C2 /* ParkingSpot.swift */,
+				40B2CF2B24B77467002F621E /* Main.storyboard */,
+				A973E44E24B35E8C006D20C2 /* ParkingSpotTableViewCell.swift */,
+				70AD4AF32456EEA300683F36 /* Assets.xcassets */,
+				40B2CF3A24B77E81002F621E /* PDaten.json */,
+			);
+			path = ParkAid;
+			sourceTree = "<group>";
+		};
+		A98C092A24B3E87E00827736 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A98C092824B39AD000827736 /* NavigationController.swift */,
+				70AD4AEE2456EEA200683F36 /* MapViewController.swift */,
+				A98C093024B55E5F00827736 /* ParkingController.swift */,
+				70684FDA24BEFE72002DA6E0 /* RoutingViewController.swift */,
+				70684FDC24BEFE8A002DA6E0 /* ARNavigationViewController.swift */,
+				A98C092B24B3E8FE00827736 /* ParkdetailsController.swift */,
+				A99F00E024BF3C2C0005A3B2 /* BuyTicketViewController.swift */,
+				A98C093224B60DBD00827736 /* ParkingResultController.swift */,
+				A99F00E224BF4A750005A3B2 /* ModifiedParkingResultController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A98C092D24B3E96B00827736 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				709E498324B38C1C007F1F9F /* Germany_HSHL-2.gpx */,
+				70AD4AEA2456EEA200683F36 /* AppDelegate.swift */,
+				70AD4AEC2456EEA200683F36 /* SceneDelegate.swift */,
+				70AD4AF52456EEA300683F36 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70AD4AE62456EEA200683F36 /* ParkAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AD4AFB2456EEA300683F36 /* Build configuration list for PBXNativeTarget "ParkAid" */;
+			buildPhases = (
+				70AD4AE32456EEA200683F36 /* Sources */,
+				70AD4AE42456EEA200683F36 /* Frameworks */,
+				70AD4AE52456EEA200683F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkAid;
+			packageProductDependencies = (
+				707B27F224C35178007A52A3 /* ARCL */,
+			);
+			productName = ParkAid;
+			productReference = 70AD4AE72456EEA200683F36 /* ParkAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70AD4ADF2456EEA200683F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Pierre Sucker";
+				TargetAttributes = {
+					70AD4AE62456EEA200683F36 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 70AD4AE22456EEA200683F36 /* Build configuration list for PBXProject "ParkAid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70AD4ADE2456EEA200683F36;
+			packageReferences = (
+				707B27F124C35177007A52A3 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */,
+			);
+			productRefGroup = 70AD4AE82456EEA200683F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70AD4AE62456EEA200683F36 /* ParkAid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70AD4AE52456EEA200683F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2CF3C24B7839B002F621E /* PDaten.json in Resources */,
+				40B2CF2D24B77467002F621E /* Main.storyboard in Resources */,
+				70AD4AF72456EEA300683F36 /* LaunchScreen.storyboard in Resources */,
+				70AD4AF42456EEA300683F36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70AD4AE32456EEA200683F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70684FDD24BEFE8A002DA6E0 /* ARNavigationViewController.swift in Sources */,
+				40B2CF3424B7774C002F621E /* DataLoader.swift in Sources */,
+				A98C092924B39AD000827736 /* NavigationController.swift in Sources */,
+				40B2CF3224B77651002F621E /* PHaus.swift in Sources */,
+				70AD4AEF2456EEA200683F36 /* MapViewController.swift in Sources */,
+				70AD4AEB2456EEA200683F36 /* AppDelegate.swift in Sources */,
+				A99F00E324BF4A750005A3B2 /* ModifiedParkingResultController.swift in Sources */,
+				A98C092C24B3E8FE00827736 /* ParkdetailsController.swift in Sources */,
+				A98C093324B60DBD00827736 /* ParkingResultController.swift in Sources */,
+				A973E44924B28E96006D20C2 /* ParkingSpot.swift in Sources */,
+				A99F00E124BF3C2C0005A3B2 /* BuyTicketViewController.swift in Sources */,
+				70AD4AED2456EEA200683F36 /* SceneDelegate.swift in Sources */,
+				70684FDB24BEFE72002DA6E0 /* RoutingViewController.swift in Sources */,
+				A973E44F24B35E8C006D20C2 /* ParkingSpotTableViewCell.swift in Sources */,
+				A98C093124B55E5F00827736 /* ParkingController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40B2CF2B24B77467002F621E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B2CF2C24B77467002F621E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70AD4AF52456EEA300683F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70AD4AF62456EEA300683F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70AD4AF92456EEA300683F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70AD4AFA2456EEA300683F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70AD4AFC2456EEA300683F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2XVB53B4GR;
+				INFOPLIST_FILE = ParkAid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hshl.de.ParkAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70AD4AFD2456EEA300683F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2XVB53B4GR;
+				INFOPLIST_FILE = ParkAid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hshl.de.ParkAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70AD4AE22456EEA200683F36 /* Build configuration list for PBXProject "ParkAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AD4AF92456EEA300683F36 /* Debug */,
+				70AD4AFA2456EEA300683F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AD4AFB2456EEA300683F36 /* Build configuration list for PBXNativeTarget "ParkAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AD4AFC2456EEA300683F36 /* Debug */,
+				70AD4AFD2456EEA300683F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		707B27F124C35177007A52A3 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProjectDent/ARKit-CoreLocation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		707B27F224C35178007A52A3 /* ARCL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 707B27F124C35177007A52A3 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */;
+			productName = ARCL;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 70AD4ADF2456EEA200683F36 /* Project object */;
+}
