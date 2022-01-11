@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "457401519681",
+    "firebase_url": "https://bananasplit-hshl.firebaseio.com",
+    "project_id": "bananasplit-hshl",
+    "storage_bucket": "bananasplit-hshl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457401519681:android:bf9924f98deb708fef00c0",
+        "android_client_info": {
+          "package_name": "de.hshl.bananasplit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457401519681-llgfoa0272c2piqpevltqmt0uiphdck0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.hshl.bananasplit",
+            "certificate_hash": "2d1686186a4a0aa4ae1d18fd49e05e9e027c0a04"
+          }
+        },
+        {
+          "client_id": "457401519681-ijtt3uljtfm4s60nctnlt6vel0ftua3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrMPAMONxYch977oJJvhewPDbMzjZyn6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457401519681-ijtt3uljtfm4s60nctnlt6vel0ftua3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

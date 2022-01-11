@@ -1,0 +1,24 @@
+{"groups": [
+  {
+    "id": "G1",
+    "membersId": [ "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2", "U2", "U3" ],
+    "owesId": ["O1", "O5", "O6"],           
+    "name" : "Freunde",
+    "color" : "EF5350"   
+  },
+  {
+    "id": "G2",
+    "membersId": [ "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2", "U2", "U3", "U4" ],
+    "owesId": ["O2","O3", "O7", "O8"], 
+    "name" : "Dart",
+    "color" : "81D4FA"   
+  },
+  {
+    "id": "G3",
+    "membersId": [ "U2", "U3", "U4" ],
+    "owesId": ["O4"],  
+    "name" : "Reisen",
+    "color" : "A5D6A7"   
+  }
+]
+}

@@ -1,0 +1,164 @@
+{
+    "groups": [
+        {
+          "id": "G1",
+          "membersId": [ "U1", "U2", "U3" ],
+          "owesId": ["O1", "O2", "O5", "O6"],           
+          "name" : "Freunde",
+          "color" : "CC2400"   
+        },
+        {
+          "id": "G2",
+          "membersId": [ "U1", "U2", "U4" ],
+          "owesId": ["O3"], 
+          "name" : "Dart",
+          "color" : "42A5F5"   
+        },
+        {
+          "id": "G3",
+          "membersId": [ "U2", "U3", "U4" ],
+          "owesId": ["O4"],  
+          "name" : "Reisen",
+          "color" : "42A5F5"   
+        }
+      ],
+      "owes": [
+        {
+          "id": "O1",
+          "creditor":{
+            "id": "U1",
+            "name" : "Meik",
+            "email" : "meik.domachowski@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U2",
+            "name" : "Fabian",
+            "email" : "fabian.vistorin@stud.hshl.de"
+          },
+          "groupId": "G1",
+          "category": "Essen",
+          "amount": 50.00,
+          "initDate" : "2019-04-23T18:25:43.511Z",
+          "isPaid": false	
+        },
+        {
+          "id": "O2",
+          "creditor":{
+            "id": "U2",
+            "name" : "Fabian",
+            "email" : "fabian.vistorin@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U1",
+            "name" : "Meik",
+            "email" : "meik.domachowski@stud.hshl.de"
+          },
+          "groupId": "G1",
+          "category": "Bildung",
+          "amount": 30.00,
+          "initDate" : "2020-04-23T18:25:43.511Z",
+          "isPaid": false
+        },
+        {
+          "id": "O3",
+          "creditor":{
+            "id": "U2",
+            "name" : "Fabian",
+            "email" : "fabian.vistorin@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U3",
+            "name" : "Pierre",
+            "email" : "pierre.sucker@stud.hshl.de"
+          },
+          "groupId": "G2",
+          "category": "Bildung",
+          "amount": 5.00,
+          "initDate" : "2019-04-22T18:25:43.511Z",
+          "isPaid": false	
+        },
+        {
+          "id": "O4",
+          "creditor":{
+            "id": "U3",
+            "name" : "Pierre",
+            "email" : "pierre.sucker@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U4",
+            "name" : "Sara",
+            "email" : "sara.detering@stud.hshl.de" 
+          },
+          "groupId": "G3",
+          "category": "Essen",
+          "amount": 20.00,
+          "initDate" : "2019-04-21T18:25:43.511Z",
+          "isPaid": false	
+        },
+        {
+          "id": "O5",
+          "creditor":{
+            "id": "U1",
+            "name" : "Meik",
+            "email" : "meik.domachowski@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U2",
+            "name" : "Fabian",
+            "email" : "fabian.vistorin@stud.hshl.de"
+          },
+          "groupId": "G1",
+          "category": "Essen",
+          "amount": 30.00,
+          "initDate" : "2019-04-21T18:25:43.511Z",
+          "isPaid": true	
+        },
+        {
+          "id": "O6",
+          "creditor":{
+            "id": "U3",
+            "name" : "Pierre",
+            "email" : "pierre.sucker@stud.hshl.de"
+          },
+          "debtor": {
+            "id": "U1",
+            "name" : "Meik",
+            "email" : "meik.domachowski@stud.hshl.de"
+          },
+          "groupId": "G2",
+          "category": "Essen",
+          "amount": 60.00,
+          "initDate" : "2019-04-21T18:25:43.511Z",
+          "isPaid": true	
+        }
+      
+      ],
+      "users": [
+        {
+          "id" : "U1",
+          "name" : "Meik",
+          "email" : "meik.domachowski@stud.hshl.de",
+          "groupIds": ["G1", "G2"]
+        },
+        {
+          "id" : "U2",
+          "name" : "Fabian",
+          "email" : "fabian.vistorin@stud.hshl.de", 
+          "groupIds": ["G1", "G2", "G3"]
+        },
+        {
+          "id" : "U3",
+          "name" : "Pierre",
+          "email" : "pierre.sucker@stud.hshl.de",
+          "groupIds": ["G1", "G3"]     
+        },
+        {
+          "id" : "U4",
+          "name" : "Sara",
+          "email" : "sara.detering@stud.hshl.de",
+          "groupIds": ["G2", "G3"]   
+        }
+      ] 
+    
+
+}

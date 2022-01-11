@@ -1,0 +1,12 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>290</y><w>210</w><h>70</h></coordinates><panel_attributes>user
+--
+userId: String + Number
+E-Mail: String
+username: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>440</y><w>210</w><h>70</h></coordinates><panel_attributes>groups
+--
+groupname:
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>360</y><w>210</w><h>70</h></coordinates><panel_attributes>userGroups
+
+--
+id: Long="36548"
+[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element></diagram>

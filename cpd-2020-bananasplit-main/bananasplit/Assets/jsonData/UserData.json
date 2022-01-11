@@ -1,0 +1,27 @@
+{"users": [
+  {
+    "id" : "U1",
+    "name" : "Meik",
+    "email" : "meik.domachowski@stud.hshl.de",
+    "groupIds": ["G1", "G2"]
+  },
+  {
+    "id" : "U2",
+    "name" : "Fabian",
+    "email" : "fabian.vistorin@stud.hshl.de", 
+    "groupIds": ["G1", "G2", "G3"]
+  },
+  {
+    "id" : "U3",
+    "name" : "Pierre",
+    "email" : "pierre.sucker@stud.hshl.de",
+    "groupIds": ["G1", "G2", "G3"]     
+  },
+  {
+    "id" : "U4",
+    "name" : "Sara",
+    "email" : "sara.detering@stud.hshl.de",
+    "groupIds": ["G2", "G3"]   
+  }
+]
+}

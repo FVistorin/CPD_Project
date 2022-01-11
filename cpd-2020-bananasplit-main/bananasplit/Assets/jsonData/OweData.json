@@ -1,0 +1,149 @@
+{"owes": [
+  {
+    "id": "O1",
+    "creditor":{
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "U2",
+      "name" : "Fabian",
+      "email" : "fabian.vistorin@stud.hshl.de"
+    },
+    "groupId": "Freunde",
+    "groupColor" : "EF5350", 
+    "amount": 50.00,
+    "initDate" : "2019-04-23T18:25:43.511Z",
+    "isPaid": false	
+  },
+  {
+    "id": "O2",
+    "creditor":{
+      "id": "U2",
+      "name" : "Fabian",
+      "email" : "fabian.vistorin@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "groupId": "Dart",
+    "groupColor" : "81D4FA", 
+    "amount": 30.00,
+    "initDate" : "2020-04-23T18:25:43.511Z",
+    "isPaid": false
+  },
+  {
+    "id": "O3",
+    "creditor":{
+      "id": "U2",
+      "name" : "Fabian",
+      "email" : "fabian.vistorin@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "U3",
+      "name" : "Pierre",
+      "email" : "pierre.sucker@stud.hshl.de"
+    },
+    "groupId": "Dart",
+    "groupColor" : "81D4FA", 
+    "amount": 5.00,
+    "initDate" : "2019-04-22T18:25:43.511Z",
+    "isPaid": false	
+  },
+  {
+    "id": "O4",
+    "creditor":{
+      "id": "U3",
+      "name" : "Pierre",
+      "email" : "pierre.sucker@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "U4",
+      "name" : "Sara",
+      "email" : "sara.detering@stud.hshl.de" 
+    },
+    "groupId": "Reisen",
+    "groupColor" : "A5D6A7", 
+    "amount": 20.00,
+    "initDate" : "2019-04-21T18:25:43.511Z",
+    "isPaid": false	
+  },
+  {
+    "id": "O5",
+    "creditor":{
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "U2",
+      "name" : "Fabian",
+      "email" : "fabian.vistorin@stud.hshl.de"
+    },
+    "groupId": "Freunde",
+    "groupColor" : "EF5350",
+    "amount": 30.00,
+    "initDate" : "2019-04-21T18:25:43.511Z",
+    "isPaid": true	
+  },
+  {
+    "id": "O6",
+    "creditor":{
+      "id": "U3",
+      "name" : "Pierre",
+      "email" : "pierre.sucker@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "groupId": "Freunde",
+    "groupColor" : "EF5350",
+    "amount": 60.00,
+    "initDate" : "2019-04-21T18:25:43.511Z",
+    "isPaid": false	
+  },
+  {
+    "id": "O7",
+    "creditor":{
+      "id": "U3",
+      "name" : "Pierre",
+      "email" : "pierre.sucker@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "groupId": "Dart",
+    "groupColor" : "81D4FA",
+    "amount": 30.00,
+    "initDate" : "2019-04-21T18:25:43.511Z",
+    "isPaid": true	
+  },
+  {
+    "id": "O8",
+    "creditor":{
+      "id": "IJlR6j4FAIQlRNGLHDmmOSoRYuZ2",
+      "name" : "Meik",
+      "email" : "meik.domachowski@stud.hshl.de"
+    },
+    "debtor": {
+      "id": "U4",
+      "name" : "Sara",
+      "email" : "sara.detering@stud.hshl.de" 
+    },
+    "groupId": "Dart",
+    "groupColor" : "81D4FA",
+    "amount": 10.00,
+    "initDate" : "2019-04-21T18:25:43.511Z",
+    "isPaid": false	
+  }
+
+
+]
+}
